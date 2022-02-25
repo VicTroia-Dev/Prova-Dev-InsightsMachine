@@ -23,7 +23,7 @@ header img{
 }
 
 main{
-    max-width: 1366px; /* indica que o menu principal será ocupado em todo o comprimento do display*/
+   
     padding: 30px 50px; /* indica que há um espaço entre o conteúdo e a "borda" do display*/
 }
 
@@ -69,7 +69,7 @@ li{
 }
 
 .carro img{
-    max-width: 227px; /* comprimento máximo da imagem*/
+    max-width: 200px; /* comprimento máximo da imagem*/
     margin: 0 auto;
     margin-bottom: 20px; /* margem da borda para fora, no sentido para baixo*/
     border-radius: 10px;
