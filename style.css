@@ -24,6 +24,7 @@ header img{
 
 main{
     margin: 0 auto;
+    max-width: 1200px;
     padding: 30px 50px; /* indica que há um espaço entre o conteúdo e a "borda" do display*/
 }
 
@@ -51,7 +52,6 @@ main{
 
 .carros-container{
     display: flex; /* responsividade*/
-    max-width: 1366px; /* indica que é sempre para os containers ocuparem todo o comprimento do display*/
     justify-content: space-around; /* tem que ser justificado com um espaço ao redor do container*/
     margin-top: 30px; /* margin em cima de 30px*/
     font-family: roboto, sans-serif;
