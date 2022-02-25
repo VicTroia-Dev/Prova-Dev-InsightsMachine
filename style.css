@@ -23,7 +23,7 @@ header img{
 }
 
 main{
-   
+    margin: 0 auto;
     padding: 30px 50px; /* indica que há um espaço entre o conteúdo e a "borda" do display*/
 }
 
