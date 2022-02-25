@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* utilizar em todo início de css!*/
+    font-family: roboto, sans-serif;
+}
+
+header{
+    display: flex; /* é o que possibilita tornar o site responsivo*/
+    justify-content: space-between; /* gera um espaço entre os elementos presentes no cabeçalho*/
+    height: 80px; /*altura do cabeçalho*/
+    padding: 15px 50px; /*espaço entre a borda do "bloco/container" e o conteúdo em si. Dá um espaço em cima e em baixo de 15px, e na direita e esquerda de 50px*/
+    align-items: center; /* posiciona os elementos, dentro do cabeçalho, centralizados*/
+    max-width: 1366px; /* faz com que a barra vá do início ao fim do display*/
+    box-shadow: 10px 0 10px rgba(0,0,0,0.4);
+}
+
+header img{
+    height: 55px;
+    width: 55px;  
+}
+
+main{
+    max-width: 1366px; /* indica que o menu principal será ocupado em todo o comprimento do display*/
+    padding: 30px 50px; /* indica que há um espaço entre o conteúdo e a "borda" do display*/
+}
+
+.pesquisa{
+    position: relative; /* não está funcionando :(*/ 
+}
+.pesquisa input{
+    height: 50px; /* altura da barra de pesquisa*/
+    width: 100%; /* comprimento que a barra de pesquisa leva*/
+    border-radius: 7px; /* o que faz os cantinhos arredondados da barra de pesquisa*/
+}
+
+.pesquisa img{
+    height: 25px;
+    right: 30;
+    bottom: 15;
+    position: absolute; /* também não está funcionando, a lupa ainda está fora da barra :_(*/
+
+}
+
+.conteudo{
+    text-align: left; /* trás o texto para a esquerda*/
+    margin-top: 30px; /* dá uma margem para cima de 30px*/
+}
+
+.carros-container{
+    display: flex; /* responsividade*/
+    max-width: 1366px; /* indica que é sempre para os containers ocuparem todo o comprimento do display*/
+    justify-content: space-around; /* tem que ser justificado com um espaço ao redor do container*/
+    margin-top: 30px; /* margin em cima de 30px*/
+    font-family: roboto, sans-serif;
+}
+
+li{
+    list-style-type: none; /* retira os marcadores da lista*/
+}
+
+.carro{
+    background-color: lightgrey; /* cor de fundo do bloco*/
+    padding: 15px; /* espaço entre a borda e o conteúdo*/
+    margin: 5px; /* margem da borda para fora do bloco, de 5px*/
+    border-radius: 10px;
+}
+
+.carro img{
+    max-width: 227px; /* comprimento máximo da imagem*/
+    margin: 0 auto;
+    margin-bottom: 20px; /* margem da borda para fora, no sentido para baixo*/
+    border-radius: 10px;
+}
+
+.modelo{
+    text-align: left; /* colocar o alinhamento do texto para a esquerda*/
+    margin-bottom: 20px;
+}
+
+.preco{
+    text-align: right; /*colocar o alinhamento do texto para a direita*/
+    margin-top: 10px;
+}
+
+
+
+
